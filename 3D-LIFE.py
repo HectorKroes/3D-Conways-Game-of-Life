@@ -76,6 +76,7 @@ def input(key):
 			camera_mode = False
 		else:
 			player = EditorCamera()
+			player.position = (1,1,1)
 			camera_mode = True
 	if key == 'r':
 		if run:
